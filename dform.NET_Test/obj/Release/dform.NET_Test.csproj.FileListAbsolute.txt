@@ -1,0 +1,5 @@
+C:\Users\paper_girl\Programming\dform.NET\dform.NET_Test\bin\Release\dform.NET_Test.dll
+C:\Users\paper_girl\Programming\dform.NET\dform.NET_Test\bin\Release\dform.NET_Test.pdb
+C:\Users\paper_girl\Programming\dform.NET\dform.NET_Test\obj\Release\dform.NET_Test.csprojResolveAssemblyReference.cache
+C:\Users\paper_girl\Programming\dform.NET\dform.NET_Test\obj\Release\dform.NET_Test.dll
+C:\Users\paper_girl\Programming\dform.NET\dform.NET_Test\obj\Release\dform.NET_Test.pdb

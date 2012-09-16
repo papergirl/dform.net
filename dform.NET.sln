@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dform.NET", "dform.NET\dform.NET.csproj", "{841D64DB-F604-4D99-809A-218452608086}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dform.NET_Test", "dform.NET_Test\dform.NET_Test.csproj", "{80361A01-4A38-44E4-9EF9-F90C19948C0D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C3E2CBED-A539-45BB-BA12-8EFA4C15F42F}"
+	ProjectSection(SolutionItems) = preProject
+		dform.NET.vsmdi = dform.NET.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = dform.NET.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{841D64DB-F604-4D99-809A-218452608086}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{841D64DB-F604-4D99-809A-218452608086}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{841D64DB-F604-4D99-809A-218452608086}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{841D64DB-F604-4D99-809A-218452608086}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80361A01-4A38-44E4-9EF9-F90C19948C0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80361A01-4A38-44E4-9EF9-F90C19948C0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80361A01-4A38-44E4-9EF9-F90C19948C0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80361A01-4A38-44E4-9EF9-F90C19948C0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

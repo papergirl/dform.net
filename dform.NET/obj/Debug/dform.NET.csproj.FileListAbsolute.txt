@@ -1,0 +1,12 @@
+c:\users\paper_girl\Programming\dform.NET\dform.NET\bin\Debug\dform.NET.dll
+c:\users\paper_girl\Programming\dform.NET\dform.NET\bin\Debug\dform.NET.pdb
+c:\users\paper_girl\Programming\dform.NET\dform.NET\bin\Debug\Microsoft.Contracts.dll
+c:\users\paper_girl\Programming\dform.NET\dform.NET\obj\Debug\dform.NET.dll
+c:\users\paper_girl\Programming\dform.NET\dform.NET\obj\Debug\dform.NET.pdb
+c:\users\paper_girl\Programming\dform.NET\dform.NET\bin\Debug\CodeContracts\dform.NET.Contracts.dll
+c:\users\paper_girl\Programming\dform.NET\dform.NET\bin\Debug\CodeContracts\dform.NET.Contracts.pdb
+c:\users\paper_girl\Programming\dform.NET\dform.NET\obj\Debug\Decl\dform.NET.dll
+c:\users\paper_girl\Programming\dform.NET\dform.NET\obj\Debug\Decl\dform.NET.pdb
+c:\users\paper_girl\Programming\dform.NET\dform.NET\obj\Debug\dform.NETccrefgen.rsp
+c:\users\paper_girl\Programming\dform.NET\dform.NET\obj\Debug\CodeContractAnalysisRun.log
+C:\Users\paper_girl\Programming\dform.NET\dform.NET\obj\Debug\dform.NET.csprojResolveAssemblyReference.cache
