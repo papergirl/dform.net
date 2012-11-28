@@ -3,3 +3,8 @@ C:\Users\paper_girl\Programming\dform.NET\dform.NET\bin\Release\dform.NET.pdb
 C:\Users\paper_girl\Programming\dform.NET\dform.NET\bin\Release\Microsoft.Contracts.dll
 C:\Users\paper_girl\Programming\dform.NET\dform.NET\obj\Release\dform.NET.dll
 C:\Users\paper_girl\Programming\dform.NET\dform.NET\obj\Release\dform.NET.pdb
+D:\Programming\dform.net\dform.NET\bin\Release\dform.NET.dll
+D:\Programming\dform.net\dform.NET\bin\Release\dform.NET.pdb
+D:\Programming\dform.net\dform.NET\bin\Release\Microsoft.Contracts.dll
+D:\Programming\dform.net\dform.NET\obj\Release\dform.NET.dll
+D:\Programming\dform.net\dform.NET\obj\Release\dform.NET.pdb
