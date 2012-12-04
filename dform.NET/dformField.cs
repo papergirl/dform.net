@@ -26,7 +26,7 @@ namespace dform.NET
         List
     }
     [AttributeUsage(AttributeTargets.Field | AttributeTargets.Property)]
-    public class DFormField : Attribute
+    public abstract class DFormField : Attribute
     {
         public string id;
         public string name;

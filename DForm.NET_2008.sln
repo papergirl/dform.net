@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dform.NET_2008", "dform.NET\dform.NET_2008.csproj", "{841D64DB-F604-4D99-809A-218452608086}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dform.NET_Test", "dform.NET_Test\dform.NET_Test.csproj", "{80361A01-4A38-44E4-9EF9-F90C19948C0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{841D64DB-F604-4D99-809A-218452608086}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{841D64DB-F604-4D99-809A-218452608086}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{841D64DB-F604-4D99-809A-218452608086}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{841D64DB-F604-4D99-809A-218452608086}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80361A01-4A38-44E4-9EF9-F90C19948C0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80361A01-4A38-44E4-9EF9-F90C19948C0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80361A01-4A38-44E4-9EF9-F90C19948C0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80361A01-4A38-44E4-9EF9-F90C19948C0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
