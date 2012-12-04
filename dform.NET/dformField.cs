@@ -18,19 +18,28 @@ namespace dform.NET
         Telephone,
         Span,
         Checkbox,
-        Checkboxes,
         Select,
-        RadioButtons,
         Hidden,
-
-        List
+        List,
+        Radio
     }
+    public enum TEXT_DIRECTION
+    {
+        ltr,
+        rtl,
+        auto
+    }
+
     [AttributeUsage(AttributeTargets.Field | AttributeTargets.Property)]
     public abstract class DFormField : Attribute
     {
         public string id;
         public string name;
         public string @class;
+        public string title;
+        public string style;
+        public TEXT_DIRECTION dir;
+        public string lang;
         protected string value;
         public string caption;
         public bool hasParent;
@@ -51,7 +60,19 @@ namespace dform.NET
                     : string.Format("\"id\":\"{0}\"", field.Name));
 
             var args = field.GetValue(actualField,null);
-            fields.Add(string.Format("\"value\":\"{0}\"", args ?? ""));
+            if (type == DFORM_TYPE.Checkbox || type == DFORM_TYPE.Radio)
+            {
+                var val = args as bool?;
+                if (val != null)
+                {
+                    if (val.Value)
+                    {
+                        fields.Add("\"checked\":\"checked\"");
+                    }
+                }
+            }
+            else
+                fields.Add(string.Format("\"value\":\"{0}\"", args ?? ""));
 
             fields.Add(
                 !String.IsNullOrEmpty(this.name)
@@ -60,6 +81,15 @@ namespace dform.NET
 
             if (!String.IsNullOrEmpty(@class))
                 fields.Add(string.Format("\"class\":\"{0}\"", @class));
+
+            if (!String.IsNullOrEmpty(style))
+                fields.Add(string.Format("\"style\":\"{0}\"", style));
+
+            if (!String.IsNullOrEmpty(lang))
+                fields.Add(string.Format("\"lang\":\"{0}\"", lang));
+
+            if (!String.IsNullOrEmpty(title))
+                fields.Add(string.Format("\"title\":\"{0}\"", title));
 
             if (!String.IsNullOrEmpty(caption))
             {

@@ -68,6 +68,9 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SerializerAndExecutionTests.cs" />
+    <Compile Include="StubClasses\CheckboxInput.cs" />
+    <Compile Include="StubClasses\Form.cs" />
+    <Compile Include="StubClasses\RadioInput.cs" />
     <Compile Include="StubClasses\TextInput.cs" />
   </ItemGroup>
   <ItemGroup>

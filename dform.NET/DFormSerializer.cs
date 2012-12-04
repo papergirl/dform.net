@@ -43,24 +43,26 @@ namespace dform.NET
                         fullySerialized.Add(at.AsJSON(toSerialize,field,serializer));
                 }
             }
-            if (opts.HaveCancel)
-                fullySerialized.Add(string.Format("{{\"type\":\"reset\",\"Value\":\"{0}\" }}", opts.CancelText));
-            if (opts.HaveSubmit)
-                fullySerialized.Add(string.Format("{{\"type\":\"submit\",\"Value\":\"{0}\" }}",opts.SubmitText));
-            
-
             string toRet;
 
             var formAttri = toSerialize.GetType().GetCustomAttributes(typeof(DFormAttribute), false);
             if(formAttri.Length > 0)
             {
+                
+                if (opts.HaveCancel)
+                    fullySerialized.Add(string.Format("{{\"type\":\"reset\",\"Value\":\"{0}\" }}", opts.CancelText));
+
+                if (opts.HaveSubmit)
+                    fullySerialized.Add(string.Format("{{\"type\":\"submit\",\"Value\":\"{0}\" }}", opts.SubmitText));
+
                 var dform = (DFormAttribute)formAttri[0];
                 toRet = String.Format(
-                    "{{\"action\":\"{0}\",\"method\":\"{1}\",\"html\":[{2}]}}", dform.action, dform.method, fullySerialized);
+                    "{{{0},\"html\":[{1}]}}",
+                    dform.AsJSON(toSerialize,serializer), fullySerialized.Aggregate((s, i) => s + "," + i), dform.id, dform.name);
             }
             else
             {
-                toRet = string.Format("[{0}]",fullySerialized.Aggregate((s,i) => s + "," + i) );
+                toRet = string.Format("{{\"html\":[{0}]}}",fullySerialized.Aggregate((s,i) => s + "," + i) );
             }
 
             return toRet;

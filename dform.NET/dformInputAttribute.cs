@@ -15,7 +15,8 @@ namespace dform.NET
     {
         internal override string AsJSON(object actualField, PropertyInfo field, DFormSerializer serializer)
         {
-            return string.Format("{{ \"type\":\"div\", \"class\":\"editor\",\"html\":[{{{0}}}]}}", base.AsJSON(actualField,field, serializer));
+            return string.Format("{{ \"type\":\"div\", \"class\":\"editor\",\"html\":[{{{0}}}]}}",
+                                 base.AsJSON(actualField,field, serializer));
         }
     }
 }
